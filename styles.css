@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-wrapper {
   height: 140px;
-  background-color: #f15252;
+  background-color: #09136bae;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -41,10 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .links {
   color:#ffffff;
-  font-size: xx-large;
+  font-size: x-large;
 }
 .logo img {
-  width: 216px;
+  width: auto;
   height: 100%;
 }
 
@@ -74,23 +74,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon {
-  font-size: 8em;
+  font-size: 2em;
 }
 
 .icon-mr {
-  margin-right: 15px;
+  margin-right: 8px;
 }
 
 .icon-ml {
-  margin-left: 15px;
+  margin-left: 8px;
 }
 
 .main-section {
-  background-image: url(assets/woman-190976.jpg);
+  background-image: url(assets/nightsky.jpg);
   padding: 100px;
   height: auto;
-  background-attachment: fixed;
-  background-position: center;
+  background-attachment: initial;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -99,27 +99,30 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1px 20px;
   /* background-color: #67edfb; */
   color: #cbcbcb;
-  width: 290px;
+  width: auto;
   border-radius: 2px;
+  text-align: center;
 }
 .middle-heading {
     /* background-color: #cbcbcc; */
     color: #cbcbcb;
-    width: 290px;
+    width: auto;
     border-radius: 2px;
+    text-align: center;
 }
 .bottom-heading {
   /* background-color: #67edfb; */
   color: #cbcbcb;
   padding: 1px 20px;
   margin-top: 15px;
-  width: 107px;
+  width: auto;
   border-radius: 2px;
+  text-align: center;
 }
 
 .features-section {
   height: auto;
-  background-image: url(assets/nightsky.jpg);
+  background-image: url(assets/sunhand.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,12 +137,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .columns-wrapper {
+  height: auto;
+  /* background-image: url(assets/nightsky.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #67edfb; */
+  border-top: 10px solid white;
+  color: #ffffff;
   width: 1000px;
   display: flex;
   justify-content: space-between;
 }
 
 .column {
+  display:flex;
+  flex-direction: column;
   padding: 20px;
   margin: 42px;
   text-align: center;
@@ -153,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column-icon {
-  font-size: 8em;
+  font-size: 10em;
 }
 
 .column-title {
@@ -169,4 +182,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .column-content {
   letter-spacing: 2px;
+}
+
+.features-bottom {
+  height: auto;
+  background-image: url(assets/nightsky.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #67edfb;
+  border-top: 10px solid white;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
 }
